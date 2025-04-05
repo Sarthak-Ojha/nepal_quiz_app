@@ -293,11 +293,11 @@ final List<Question> sportsQuestions = [
     questionText: 'Which team won the 1st edition of the Nepal Premier League?',
     options: [
       'Sudur Paschim Royals',
-      'Karnali Yaks',
-      'Janakpur rhinos',
+      'Karnali Bulls',
+      'Janakpur Bolts',
       'Chitwan Rhinos',
     ],
-    correctAnswer: 'Janakpur rhinos',
+    correctAnswer: 'Janakpur Bolts',
   ),
 ];
 
