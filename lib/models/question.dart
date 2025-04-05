@@ -294,10 +294,10 @@ final List<Question> sportsQuestions = [
     options: [
       'Sudur Paschim Royals',
       'Karnali Yaks',
-      'Janakpur Bolts',
+      'Janakpur rhinos',
       'Chitwan Rhinos',
     ],
-    correctAnswer: 'Janakpur Bolts',
+    correctAnswer: 'Janakpur rhinos',
   ),
 ];
 
