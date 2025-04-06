@@ -19,7 +19,7 @@ final List<Question> geographyQuestions = [
   Question(
     id: 'geo1',
     questionText: 'What is the height of Mount Everest?',
-    options: ['8848', '8586', '8884', '8849'],
+    options: ['8848', '8847', '8886', '8849'],
     correctAnswer: '8849',
   ),
   Question(
@@ -30,9 +30,14 @@ final List<Question> geographyQuestions = [
   ),
   Question(
     id: 'geo3',
-    questionText: 'Rara Lake is located in which province?',
-    options: ['Karnali', 'Sudurpashchim', 'Gandaki', 'Bagmati'],
-    correctAnswer: 'Karnali',
+    questionText: 'Which is the deepest gorge in Nepal?',
+    options: [
+      'Kali Gandaki Gorge',
+      'Arun Valley',
+      'Budi Gandaki Gorge',
+      'Trishuli Gorge',
+    ],
+    correctAnswer: 'Kali Gandaki Gorge',
   ),
   Question(
     id: 'geo4',
@@ -47,25 +52,20 @@ final List<Question> geographyQuestions = [
   ),
   Question(
     id: 'geo5',
-    questionText: 'Which is the deepest gorge in Nepal?',
-    options: [
-      'Kali Gandaki Gorge',
-      'Arun Valley',
-      'Budi Gandaki Gorge',
-      'Trishuli Gorge',
-    ],
-    correctAnswer: 'Kali Gandaki Gorge',
+    questionText: 'Rara Lake is located in which province?',
+    options: ['Bagmati', 'Sudurpashchim', 'Gandaki', 'Karnali'],
+    correctAnswer: 'Karnali',
   ),
   Question(
     id: 'geo6',
     questionText: 'What is the smallest district of Nepal by area?',
-    options: ['Bhaktapur', 'Mustang', 'Lalitpur', 'Rasuwa'],
+    options: ['Kathmanndu', 'Mustang', 'Bhaktapur', 'Rasuwa'],
     correctAnswer: 'Bhaktapur',
   ),
   Question(
     id: 'geo7',
     questionText: 'Tilicho Lake is situated at what altitude?',
-    options: ['3919 Meters', '4919 Meters', '5010 Meters', '4511 Meters'],
+    options: ['3919 Meters', '3918 Meters', '4919 Meters', '4918 Meters'],
     correctAnswer: '4919 Meters',
   ),
   Question(
@@ -76,7 +76,7 @@ final List<Question> geographyQuestions = [
   ),
   Question(
     id: 'geo9',
-    questionText: 'Which of these peaks is NOT in Nepal?',
+    questionText: 'Which of these peaks is not in Nepal?',
     options: ['Makalu', 'K2', 'Annapurna', 'Lotse'],
     correctAnswer: 'K2',
   ),
