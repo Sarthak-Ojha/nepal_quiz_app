@@ -7,9 +7,9 @@ Future<void> main() async {
 
   try {
     await Supabase.initialize(
-      url: "https://qcvewcbubbiecqmufhtw.supabase.co",
+      url: "https://wsjrgxbjvvzzeyffyojz.supabase.co",
       anonKey:
-          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjdmV3Y2J1YmJpZWNxbXVmaHR3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDM0MjkyNTgsImV4cCI6MjA1OTAwNTI1OH0.WvW6cbPP_uYtYZP9NNSY1uFzUw4Ylug_IWfm_d2FSj4",
+          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndzanJneGJqdnZ6emV5ZmZ5b2p6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDM5MDQxNDYsImV4cCI6MjA1OTQ4MDE0Nn0.xT7il8b5k7qt1rKzRXvJ0Y1FI4-s2FkNo5etuOBghNw",
     );
 
     // Only run the app if Supabase initialization is successful
